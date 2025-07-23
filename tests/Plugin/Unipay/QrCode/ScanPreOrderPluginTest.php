@@ -1,19 +1,19 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\QrCode;
+namespace Pengxul\Payf\Tests\Plugin\Unipay\QrCode;
 
 use GuzzleHttp\Psr7\Uri;
 use Psr\Http\Message\RequestInterface;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Unipay\QrCode\ScanPreOrderPlugin;
-use Yansongda\Pay\Provider\Unipay;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Plugin\Unipay\QrCode\ScanPreOrderPlugin;
+use Pengxul\Payf\Provider\Unipay;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 
 class ScanPreOrderPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Unipay\QrCode\ScanPreOrderPlugin
+     * @var \Pengxul\Payf\Plugin\Unipay\QrCode\ScanPreOrderPlugin
      */
     protected $plugin;
 

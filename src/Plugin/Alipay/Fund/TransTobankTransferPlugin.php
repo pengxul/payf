@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\Fund;
+namespace Pengxul\Payf\Plugin\Alipay\Fund;
 
-use Pengxul\Pay\Plugin\Alipay\GeneralPlugin;
+use Pengxul\Payf\Plugin\Alipay\GeneralPlugin;
 
 class TransTobankTransferPlugin extends GeneralPlugin
 {

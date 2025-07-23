@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Service;
+namespace Pengxul\Payf\Service;
 
-use Pengxul\Pay\Contract\ConfigInterface;
-use Pengxul\Pay\Contract\LoggerInterface;
-use Pengxul\Pay\Contract\ServiceProviderInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
-use Pengxul\Pay\Pay;
+use Pengxul\Payf\Contract\ConfigInterface;
+use Pengxul\Payf\Contract\LoggerInterface;
+use Pengxul\Payf\Contract\ServiceProviderInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Pay;
 use Yansongda\Supports\Logger;
 
 class LoggerServiceProvider implements ServiceProviderInterface

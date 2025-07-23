@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Direction;
+namespace Pengxul\Payf\Tests\Direction;
 
 use GuzzleHttp\Psr7\Response;
-use Yansongda\Pay\Packer\JsonPacker;
-use Yansongda\Pay\Direction\CollectionDirection;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Packer\JsonPacker;
+use Pengxul\Payf\Direction\CollectionDirection;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Tests\TestCase;
 
 class CollectionDirectionTest extends TestCase
 {

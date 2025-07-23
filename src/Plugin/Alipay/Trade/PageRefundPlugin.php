@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\Trade;
+namespace Pengxul\Payf\Plugin\Alipay\Trade;
 
 use Closure;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Direction\ResponseDirection;
-use Pengxul\Pay\Logger;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Direction\ResponseDirection;
+use Pengxul\Payf\Logger;
+use Pengxul\Payf\Rocket;
 
 class PageRefundPlugin implements PluginInterface
 {

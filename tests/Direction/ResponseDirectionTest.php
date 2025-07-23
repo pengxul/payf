@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Direction;
+namespace Pengxul\Payf\Tests\Direction;
 
 class ResponseDirectionTest extends NoHttpRequestDirectionTest
 {

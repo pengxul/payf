@@ -1,13 +1,13 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Fund\Profitsharing;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Fund\Profitsharing;
 
 use GuzzleHttp\Psr7\Uri;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Fund\Profitsharing\AddReceiverPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Plugin\Wechat\Fund\Profitsharing\AddReceiverPlugin;
+use Pengxul\Payf\Provider\Wechat;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class AddReceiverPluginTest extends TestCase

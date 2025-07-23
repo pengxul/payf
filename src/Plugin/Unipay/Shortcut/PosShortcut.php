@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Unipay\Shortcut;
+namespace Pengxul\Payf\Plugin\Unipay\Shortcut;
 
-use Pengxul\Pay\Contract\ShortcutInterface;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Plugin\Unipay\QrCode\PosNormalPlugin;
-use Pengxul\Pay\Plugin\Unipay\QrCode\PosPreAuthPlugin;
+use Pengxul\Payf\Contract\ShortcutInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Unipay\QrCode\PosNormalPlugin;
+use Pengxul\Payf\Plugin\Unipay\QrCode\PosPreAuthPlugin;
 use Yansongda\Supports\Str;
 
 class PosShortcut implements ShortcutInterface

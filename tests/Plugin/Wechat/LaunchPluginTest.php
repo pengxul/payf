@@ -1,22 +1,22 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat;
+namespace Pengxul\Payf\Tests\Plugin\Wechat;
 
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidResponseException;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Direction\OriginResponseDirection;
-use Yansongda\Pay\Plugin\Wechat\LaunchPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidResponseException;
+use Pengxul\Payf\Direction\NoHttpRequestDirection;
+use Pengxul\Payf\Direction\OriginResponseDirection;
+use Pengxul\Payf\Plugin\Wechat\LaunchPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class LaunchPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\LaunchPlugin
+     * @var \Pengxul\Payf\Plugin\Wechat\LaunchPlugin
      */
     protected $plugin;
 

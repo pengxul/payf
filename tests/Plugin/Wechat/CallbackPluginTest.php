@@ -1,17 +1,17 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat;
+namespace Pengxul\Payf\Tests\Plugin\Wechat;
 
 use GuzzleHttp\Psr7\ServerRequest;
-use Yansongda\Pay\Plugin\Wechat\CallbackPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Plugin\Wechat\CallbackPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class CallbackPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\CallbackPlugin
+     * @var \Pengxul\Payf\Plugin\Wechat\CallbackPlugin
      */
     protected $plugin;
 

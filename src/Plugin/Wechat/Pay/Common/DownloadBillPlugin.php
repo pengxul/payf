@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\Common;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\Common;
 
-use Pengxul\Pay\Direction\OriginResponseDirection;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Direction\OriginResponseDirection;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 
 class DownloadBillPlugin extends GeneralPlugin
 {

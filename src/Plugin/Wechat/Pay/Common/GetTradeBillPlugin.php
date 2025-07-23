@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\Common;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\Common;
 
-use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 
 class GetTradeBillPlugin extends GeneralPlugin
 {

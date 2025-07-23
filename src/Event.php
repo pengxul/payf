@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace Pengxul\Pay;
 
-use Pengxul\Pay\Contract\EventDispatcherInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\InvalidConfigException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Contract\EventDispatcherInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\InvalidConfigException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
 
 /**
  * @method static Event\Event dispatch(object $event)

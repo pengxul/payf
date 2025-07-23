@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Risk\Complaints;
+namespace Pengxul\Payf\Plugin\Wechat\Risk\Complaints;
 
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter10_2_13.shtml

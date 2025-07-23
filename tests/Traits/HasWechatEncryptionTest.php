@@ -1,16 +1,16 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Traits;
+namespace Pengxul\Payf\Tests\Traits;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use Mockery;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Tests\Stubs\Traits\HasWechatEncryptionStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Contract\HttpClientInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Tests\Stubs\Traits\HasWechatEncryptionStub;
+use Pengxul\Payf\Tests\TestCase;
 
 class HasWechatEncryptionTest extends TestCase
 {

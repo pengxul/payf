@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Shortcut;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Shortcut;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\Alipay\Fund\TransCommonQueryPlugin;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\ClosePlugin;
-use Yansongda\Pay\Plugin\Wechat\Shortcut\CloseShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Alipay\Fund\TransCommonQueryPlugin;
+use Pengxul\Payf\Plugin\Wechat\Pay\Common\ClosePlugin;
+use Pengxul\Payf\Plugin\Wechat\Shortcut\CloseShortcut;
+use Pengxul\Payf\Tests\TestCase;
 
 class CloseShortcutTest extends TestCase
 {
@@ -32,18 +32,18 @@ class CloseShortcutTest extends TestCase
     public function testCombine()
     {
         self::assertEquals([
-            \Yansongda\Pay\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
+            \Pengxul\Payf\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
         ], $this->plugin->getPlugins(['_action' => 'combine']));
     }
 
     public function testCombineParams()
     {
         self::assertEquals([
-            \Yansongda\Pay\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
+            \Pengxul\Payf\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
         ], $this->plugin->getPlugins(['combine_out_trade_no' => '123abc']));
 
         self::assertEquals([
-            \Yansongda\Pay\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
+            \Pengxul\Payf\Plugin\Wechat\Pay\Combine\ClosePlugin::class,
         ], $this->plugin->getPlugins(['sub_orders' => '123abc']));
     }
 

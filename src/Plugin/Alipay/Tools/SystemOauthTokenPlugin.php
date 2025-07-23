@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\Tools;
+namespace Pengxul\Payf\Plugin\Alipay\Tools;
 
-use Pengxul\Pay\Plugin\Alipay\GeneralPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Plugin\Alipay\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://opendocs.alipay.com/open/02ailc

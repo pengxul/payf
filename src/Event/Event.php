@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Event;
+namespace Pengxul\Payf\Event;
 
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Rocket;
 
 class Event
 {

@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\Common;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\Common;
 
-use Pengxul\Pay\Direction\OriginResponseDirection;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
-use Pengxul\Pay\Pay;
-use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Direction\OriginResponseDirection;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 use Yansongda\Supports\Collection;
 
-use function Pengxul\Pay\get_wechat_config;
+use function Pengxul\Payf\get_wechat_config;
 
 class ClosePlugin extends GeneralPlugin
 {

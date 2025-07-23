@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Event;
+namespace Pengxul\Payf\Event;
 
 class ApiRequesting extends Event
 {

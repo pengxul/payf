@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Unipay\Shortcut;
+namespace Pengxul\Payf\Plugin\Unipay\Shortcut;
 
-use Pengxul\Pay\Contract\ShortcutInterface;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Plugin\Unipay\OnlineGateway\CancelPlugin;
+use Pengxul\Payf\Contract\ShortcutInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Unipay\OnlineGateway\CancelPlugin;
 use Yansongda\Supports\Str;
 
 class CancelShortcut implements ShortcutInterface
@@ -36,7 +36,7 @@ class CancelShortcut implements ShortcutInterface
     protected function qrCodePlugins(): array
     {
         return [
-            \Pengxul\Pay\Plugin\Unipay\QrCode\CancelPlugin::class,
+            \Pengxul\Payf\Plugin\Unipay\QrCode\CancelPlugin::class,
         ];
     }
 }

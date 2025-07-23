@@ -2,28 +2,28 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat;
+namespace Pengxul\Payf\Plugin\Wechat;
 
 use Closure;
 use GuzzleHttp\Psr7\Utils;
 use Psr\Http\Message\RequestInterface;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidConfigException;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
-use Pengxul\Pay\Logger;
-use Pengxul\Pay\Packer\JsonPacker;
-use Pengxul\Pay\Packer\XmlPacker;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidConfigException;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Logger;
+use Pengxul\Payf\Packer\JsonPacker;
+use Pengxul\Payf\Packer\XmlPacker;
+use Pengxul\Payf\Rocket;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Str;
 
-use function Pengxul\Pay\get_public_cert;
-use function Pengxul\Pay\get_wechat_config;
-use function Pengxul\Pay\get_wechat_sign;
-use function Pengxul\Pay\get_wechat_sign_v2;
+use function Pengxul\Payf\get_public_cert;
+use function Pengxul\Payf\get_wechat_config;
+use function Pengxul\Payf\get_wechat_sign;
+use function Pengxul\Payf\get_wechat_sign_v2;
 
 class RadarSignPlugin implements PluginInterface
 {

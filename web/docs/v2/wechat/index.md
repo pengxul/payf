@@ -5,7 +5,7 @@
 ## 快速上手
 
 ```php
-use Yansongda\Pay\Pay;
+use Pengxul\Payf\Pay;
 
 $config = [
     'appid' => 'wxb3fxxxxxxxxxxx', // APP APPID

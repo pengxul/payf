@@ -2,18 +2,18 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Service;
+namespace Pengxul\Payf\Service;
 
 use Closure;
 use Hyperf\Pimple\ContainerFactory as DefaultContainer;
 use Hyperf\Utils\ApplicationContext as HyperfContainer;
 use Illuminate\Container\Container as LaravelContainer;
 use Psr\Container\ContainerInterface;
-use Pengxul\Pay\Contract\ServiceProviderInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\ContainerNotFoundException;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Pay;
+use Pengxul\Payf\Contract\ServiceProviderInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\ContainerNotFoundException;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Pay;
 
 /**
  * @codeCoverageIgnore
@@ -61,7 +61,7 @@ class ContainerServiceProvider implements ServiceProviderInterface
     {
         Pay::setContainer(static fn () => LaravelContainer::getInstance());
 
-        Pay::set(\Pengxul\Pay\Contract\ContainerInterface::class, LaravelContainer::getInstance());
+        Pay::set(\Pengxul\Payf\Contract\ContainerInterface::class, LaravelContainer::getInstance());
 
         if (!Pay::has(ContainerInterface::class)) {
             Pay::set(ContainerInterface::class, LaravelContainer::getInstance());
@@ -82,7 +82,7 @@ class ContainerServiceProvider implements ServiceProviderInterface
 
         Pay::setContainer(static fn () => HyperfContainer::getContainer());
 
-        Pay::set(\Pengxul\Pay\Contract\ContainerInterface::class, HyperfContainer::getContainer());
+        Pay::set(\Pengxul\Payf\Contract\ContainerInterface::class, HyperfContainer::getContainer());
 
         if (!Pay::has(ContainerInterface::class)) {
             Pay::set(ContainerInterface::class, HyperfContainer::getContainer());

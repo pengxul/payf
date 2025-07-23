@@ -1,22 +1,22 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Provider;
+namespace Pengxul\Payf\Tests\Provider;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
 use Mockery;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Wechat\LaunchPlugin;
-use Yansongda\Pay\Plugin\Wechat\PreparePlugin;
-use Yansongda\Pay\Plugin\Wechat\RadarSignPlugin;
-use Yansongda\Pay\Tests\Stubs\Plugin\FooPluginStub;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Contract\HttpClientInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Plugin\ParserPlugin;
+use Pengxul\Payf\Plugin\Wechat\LaunchPlugin;
+use Pengxul\Payf\Plugin\Wechat\PreparePlugin;
+use Pengxul\Payf\Plugin\Wechat\RadarSignPlugin;
+use Pengxul\Payf\Tests\Stubs\Plugin\FooPluginStub;
+use Pengxul\Payf\Tests\TestCase;
 
 class WechatTest extends TestCase
 {

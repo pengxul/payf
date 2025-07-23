@@ -1,16 +1,16 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Pay\App;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Pay\App;
 
-use Yansongda\Pay\Plugin\Wechat\Pay\App\PrepayPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Plugin\Wechat\Pay\App\PrepayPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class PrepayPluginTest extends TestCase
 {
     /**
-     * @var \Yansongda\Pay\Plugin\Wechat\Pay\App\PrepayPlugin
+     * @var \Pengxul\Payf\Plugin\Wechat\Pay\App\PrepayPlugin
      */
     protected $plugin;
 

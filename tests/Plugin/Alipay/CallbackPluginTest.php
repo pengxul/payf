@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay;
+namespace Pengxul\Payf\Tests\Plugin\Alipay;
 
 use GuzzleHttp\Psr7\ServerRequest;
-use Yansongda\Pay\Plugin\Alipay\CallbackPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Plugin\Alipay\CallbackPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 
 class CallbackPluginTest extends TestCase
 {

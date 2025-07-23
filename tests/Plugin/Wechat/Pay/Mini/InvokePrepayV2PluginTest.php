@@ -1,12 +1,12 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Pay\Mini;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Pay\Mini;
 
-use Yansongda\Pay\Plugin\Wechat\Pay\Mini\InvokePrepayV2Plugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Plugin\Wechat\Pay\Mini\InvokePrepayV2Plugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
-use function Yansongda\Pay\get_wechat_config;
+use function Pengxul\Payf\get_wechat_config;
 
 class InvokePrepayV2PluginTest extends TestCase
 {

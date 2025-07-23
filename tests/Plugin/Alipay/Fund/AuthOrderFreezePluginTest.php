@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\Fund;
+namespace Pengxul\Payf\Tests\Plugin\Alipay\Fund;
 
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\Fund\AuthOrderFreezePlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Direction\ResponseDirection;
+use Pengxul\Payf\Plugin\Alipay\Fund\AuthOrderFreezePlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 
 class AuthOrderFreezePluginTest extends TestCase
 {

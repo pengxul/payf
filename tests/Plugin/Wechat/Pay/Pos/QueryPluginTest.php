@@ -1,15 +1,15 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Pay\Pos;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Pay\Pos;
 
 use GuzzleHttp\Psr7\Uri;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Plugin\Wechat\Pay\Pos\QueryPlugin;
-use Yansongda\Pay\Provider\Wechat;
-use Yansongda\Pay\Rocket;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Plugin\Wechat\Pay\Pos\QueryPlugin;
+use Pengxul\Payf\Provider\Wechat;
+use Pengxul\Payf\Rocket;
 use Yansongda\Supports\Collection;
 
-class QueryPluginTest extends \Yansongda\Pay\Tests\TestCase
+class QueryPluginTest extends \Pengxul\Payf\Tests\TestCase
 {
     protected QueryPlugin $plugin;
 

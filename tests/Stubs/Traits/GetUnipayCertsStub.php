@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs\Traits;
+namespace Pengxul\Payf\Tests\Stubs\Traits;
 
-use Yansongda\Pay\Traits\GetUnipayCerts;
+use Pengxul\Payf\Traits\GetUnipayCerts;
 
 class GetUnipayCertsStub
 {

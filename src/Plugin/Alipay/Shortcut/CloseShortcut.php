@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\Shortcut;
+namespace Pengxul\Payf\Plugin\Alipay\Shortcut;
 
-use Pengxul\Pay\Contract\ShortcutInterface;
-use Pengxul\Pay\Plugin\Alipay\Trade\ClosePlugin;
+use Pengxul\Payf\Contract\ShortcutInterface;
+use Pengxul\Payf\Plugin\Alipay\Trade\ClosePlugin;
 
 class CloseShortcut implements ShortcutInterface
 {

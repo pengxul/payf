@@ -1,9 +1,9 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs\Plugin;
+namespace Pengxul\Payf\Tests\Stubs\Plugin;
 
-use Yansongda\Pay\Plugin\Unipay\GeneralPlugin;
-use Yansongda\Pay\Rocket;
+use Pengxul\Payf\Plugin\Unipay\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 
 class UnipayGeneralPluginStub extends GeneralPlugin
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\Fund;
+namespace Pengxul\Payf\Tests\Plugin\Alipay\Fund;
 
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\Fund\AccountQueryPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Direction\ResponseDirection;
+use Pengxul\Payf\Plugin\Alipay\Fund\AccountQueryPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 
 class AccountQueryPluginTest extends TestCase
 {

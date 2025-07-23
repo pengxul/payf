@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Fund\Profitsharing;
+namespace Pengxul\Payf\Plugin\Wechat\Fund\Profitsharing;
 
-use Pengxul\Pay\Direction\OriginResponseDirection;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Plugin\Wechat\GeneralPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Direction\OriginResponseDirection;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Wechat\GeneralPlugin;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter8_1_12.shtml

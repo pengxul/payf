@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Contract;
+namespace Pengxul\Payf\Contract;
 
 use Psr\Http\Message\MessageInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
 use Yansongda\Supports\Collection;
 
 interface ProviderInterface

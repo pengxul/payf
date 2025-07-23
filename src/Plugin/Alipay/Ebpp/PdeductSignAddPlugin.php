@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\Ebpp;
+namespace Pengxul\Payf\Plugin\Alipay\Ebpp;
 
 use Closure;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Logger;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Logger;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://opendocs.alipay.com/open/02hd33

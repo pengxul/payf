@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Papay;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Papay;
 
-use Yansongda\Pay\Plugin\Wechat\Papay\OnlyContractPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Plugin\Wechat\Papay\OnlyContractPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class OnlyContractPluginTest extends TestCase

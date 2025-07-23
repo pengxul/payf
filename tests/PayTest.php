@@ -1,22 +1,22 @@
 <?php
 
-namespace Yansongda\Pay\Tests;
+namespace Pengxul\Payf\Tests;
 
 use DI\Container;
 use DI\ContainerBuilder;
 use GuzzleHttp\Client;
 use Psr\Container\ContainerInterface;
 use Symfony\Component\EventDispatcher\EventDispatcher;
-use Yansongda\Pay\Contract\ConfigInterface;
-use Yansongda\Pay\Contract\EventDispatcherInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Contract\LoggerInterface;
-use Yansongda\Pay\Exception\ContainerException;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\ServiceNotFoundException;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\Alipay;
-use Yansongda\Pay\Tests\Stubs\FooServiceProviderStub;
+use Pengxul\Payf\Contract\ConfigInterface;
+use Pengxul\Payf\Contract\EventDispatcherInterface;
+use Pengxul\Payf\Contract\HttpClientInterface;
+use Pengxul\Payf\Contract\LoggerInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Provider\Alipay;
+use Pengxul\Payf\Tests\Stubs\FooServiceProviderStub;
 use Yansongda\Supports\Config;
 use Yansongda\Supports\Logger;
 use Yansongda\Supports\Pipeline;

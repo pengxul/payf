@@ -1,10 +1,10 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Packer;
+namespace Pengxul\Payf\Tests\Packer;
 
-use Yansongda\Pay\Packer\JsonPacker;
+use Pengxul\Payf\Packer\JsonPacker;
 
-class JsonPackerTest extends \Yansongda\Pay\Tests\TestCase
+class JsonPackerTest extends \Pengxul\Payf\Tests\TestCase
 {
     protected JsonPacker $packer;
 

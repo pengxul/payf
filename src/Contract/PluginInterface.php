@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Contract;
+namespace Pengxul\Payf\Contract;
 
 use Closure;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Rocket;
 
 interface PluginInterface
 {

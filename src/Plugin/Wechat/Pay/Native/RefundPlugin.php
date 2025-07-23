@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\Native;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\Native;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_4_9.shtml
  */
-class RefundPlugin extends \Pengxul\Pay\Plugin\Wechat\Pay\Common\RefundPlugin
+class RefundPlugin extends \Pengxul\Payf\Plugin\Wechat\Pay\Common\RefundPlugin
 {
 }

@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\App;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\App;
 
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter3_2_1.shtml
  */
-class PrepayPlugin extends \Pengxul\Pay\Plugin\Wechat\Pay\Common\PrepayPlugin
+class PrepayPlugin extends \Pengxul\Payf\Plugin\Wechat\Pay\Common\PrepayPlugin
 {
     protected function getUri(Rocket $rocket): string
     {

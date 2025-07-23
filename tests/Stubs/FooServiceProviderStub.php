@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Stubs;
+namespace Pengxul\Payf\Tests\Stubs;
 
-use Yansongda\Pay\Contract\ServiceProviderInterface;
-use Yansongda\Pay\Pay;
+use Pengxul\Payf\Contract\ServiceProviderInterface;
+use Pengxul\Payf\Pay;
 
 class FooServiceProviderStub implements ServiceProviderInterface
 {
     /**
-     * @throws \Yansongda\Pay\Exception\ContainerException
+     * @throws \Pengxul\Payf\Exception\ContainerException
      */
     public function register($data = null): void
     {

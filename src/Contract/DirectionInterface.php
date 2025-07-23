@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Contract;
+namespace Pengxul\Payf\Contract;
 
 use Psr\Http\Message\ResponseInterface;
 

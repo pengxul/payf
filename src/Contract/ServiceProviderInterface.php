@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Contract;
+namespace Pengxul\Payf\Contract;
 
-use Pengxul\Pay\Exception\ContainerException;
+use Pengxul\Payf\Exception\ContainerException;
 
 interface ServiceProviderInterface
 {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Unipay\Shortcut;
+namespace Pengxul\Payf\Tests\Plugin\Unipay\Shortcut;
 
-use Yansongda\Pay\Plugin\Unipay\HtmlResponsePlugin;
-use Yansongda\Pay\Plugin\Unipay\OnlineGateway\PagePayPlugin;
-use Yansongda\Pay\Plugin\Unipay\Shortcut\WebShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Plugin\Unipay\HtmlResponsePlugin;
+use Pengxul\Payf\Plugin\Unipay\OnlineGateway\PagePayPlugin;
+use Pengxul\Payf\Plugin\Unipay\Shortcut\WebShortcut;
+use Pengxul\Payf\Tests\TestCase;
 
 class WebShortcutTest extends TestCase
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Plugin\Alipay\Trade;
+namespace Pengxul\Payf\Tests\Plugin\Alipay\Trade;
 
-use Yansongda\Pay\Direction\ResponseDirection;
-use Yansongda\Pay\Plugin\Alipay\Trade\WapPayPlugin;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Direction\ResponseDirection;
+use Pengxul\Payf\Plugin\Alipay\Trade\WapPayPlugin;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 
 class WapPluginTest extends TestCase
 {

@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Packer;
+namespace Pengxul\Payf\Packer;
 
-use Pengxul\Pay\Contract\PackerInterface;
+use Pengxul\Payf\Contract\PackerInterface;
 use Yansongda\Supports\Str;
 
 class QueryPacker implements PackerInterface

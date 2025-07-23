@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Exception;
+namespace Pengxul\Payf\Exception;
 
 use Psr\Container\NotFoundExceptionInterface;
 use Throwable;

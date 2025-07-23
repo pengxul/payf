@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Provider;
+namespace Pengxul\Payf\Tests\Provider;
 
 use Closure;
 use GuzzleHttp\Client;
@@ -8,17 +8,17 @@ use GuzzleHttp\Psr7\Request;
 use GuzzleHttp\Psr7\Response;
 use Mockery;
 use Psr\Http\Message\ResponseInterface;
-use Yansongda\Pay\Contract\HttpClientInterface;
-use Yansongda\Pay\Contract\PluginInterface;
-use Yansongda\Pay\Contract\ShortcutInterface;
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidConfigException;
-use Yansongda\Pay\Direction\ArrayDirection;
-use Yansongda\Pay\Direction\NoHttpRequestDirection;
-use Yansongda\Pay\Pay;
-use Yansongda\Pay\Provider\AbstractProvider;
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Contract\HttpClientInterface;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Contract\ShortcutInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidConfigException;
+use Pengxul\Payf\Direction\ArrayDirection;
+use Pengxul\Payf\Direction\NoHttpRequestDirection;
+use Pengxul\Payf\Pay;
+use Pengxul\Payf\Provider\AbstractProvider;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Tests\TestCase;
 use Yansongda\Supports\Collection;
 
 class AbstractProviderTest extends TestCase

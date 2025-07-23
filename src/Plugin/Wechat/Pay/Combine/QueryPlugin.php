@@ -2,16 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\Combine;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\Combine;
 
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter5_1_11.shtml
  */
-class QueryPlugin extends \Pengxul\Pay\Plugin\Wechat\Pay\Common\QueryPlugin
+class QueryPlugin extends \Pengxul\Payf\Plugin\Wechat\Pay\Common\QueryPlugin
 {
     protected function getUri(Rocket $rocket): string
     {

@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\User;
+namespace Pengxul\Payf\Plugin\Alipay\User;
 
 use Closure;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Logger;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Logger;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://opendocs.alipay.com/open/02fkao?ref=api&scene=8837b4183390497f84bb53783b488ecc

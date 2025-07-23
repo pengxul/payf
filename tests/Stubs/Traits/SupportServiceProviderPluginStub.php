@@ -1,9 +1,9 @@
 <?php
 
-namespace Yansongda\Pay\Tests\Stubs\Traits;
+namespace Pengxul\Payf\Tests\Stubs\Traits;
 
-use Yansongda\Pay\Rocket;
-use Yansongda\Pay\Traits\SupportServiceProviderTrait;
+use Pengxul\Payf\Rocket;
+use Pengxul\Payf\Traits\SupportServiceProviderTrait;
 
 class SupportServiceProviderPluginStub
 {

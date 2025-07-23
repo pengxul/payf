@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Event;
+namespace Pengxul\Payf\Event;
 
 use Psr\Http\Message\ServerRequestInterface;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Rocket;
 
 class CallbackReceived extends Event
 {

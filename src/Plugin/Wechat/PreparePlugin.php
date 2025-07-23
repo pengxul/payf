@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat;
+namespace Pengxul\Payf\Plugin\Wechat;
 
 use Closure;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Logger;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Logger;
+use Pengxul\Payf\Rocket;
 use Yansongda\Supports\Str;
 
 class PreparePlugin implements PluginInterface

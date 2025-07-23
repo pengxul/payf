@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\Shortcut;
+namespace Pengxul\Payf\Plugin\Alipay\Shortcut;
 
 use Closure;
 use GuzzleHttp\Psr7\Response;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Contract\ShortcutInterface;
-use Pengxul\Pay\Plugin\Alipay\Trade\AppPayPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Contract\ShortcutInterface;
+use Pengxul\Payf\Plugin\Alipay\Trade\AppPayPlugin;
+use Pengxul\Payf\Rocket;
 use Yansongda\Supports\Arr;
 use Yansongda\Supports\Collection;
 

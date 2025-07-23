@@ -2,15 +2,15 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Unipay\Shortcut;
+namespace Pengxul\Payf\Plugin\Unipay\Shortcut;
 
-use Pengxul\Pay\Contract\ShortcutInterface;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Plugin\Unipay\QrCode\ScanFeePlugin;
-use Pengxul\Pay\Plugin\Unipay\QrCode\ScanNormalPlugin;
-use Pengxul\Pay\Plugin\Unipay\QrCode\ScanPreAuthPlugin;
-use Pengxul\Pay\Plugin\Unipay\QrCode\ScanPreOrderPlugin;
+use Pengxul\Payf\Contract\ShortcutInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\Unipay\QrCode\ScanFeePlugin;
+use Pengxul\Payf\Plugin\Unipay\QrCode\ScanNormalPlugin;
+use Pengxul\Payf\Plugin\Unipay\QrCode\ScanPreAuthPlugin;
+use Pengxul\Payf\Plugin\Unipay\QrCode\ScanPreOrderPlugin;
 use Yansongda\Supports\Str;
 
 class ScanShortcut implements ShortcutInterface

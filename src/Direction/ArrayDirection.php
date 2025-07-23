@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Direction;
+namespace Pengxul\Payf\Direction;
 
 use Psr\Http\Message\ResponseInterface;
-use Pengxul\Pay\Contract\DirectionInterface;
-use Pengxul\Pay\Contract\PackerInterface;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidResponseException;
+use Pengxul\Payf\Contract\DirectionInterface;
+use Pengxul\Payf\Contract\PackerInterface;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidResponseException;
 
 class ArrayDirection implements DirectionInterface
 {

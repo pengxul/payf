@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Pay\Combine;
+namespace Pengxul\Payf\Plugin\Wechat\Pay\Combine;
 
-use Pengxul\Pay\Plugin\Wechat\Pay\Common\CombinePrepayPlugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Plugin\Wechat\Pay\Common\CombinePrepayPlugin;
+use Pengxul\Payf\Rocket;
 
 /**
  * @see https://pay.weixin.qq.com/wiki/doc/apiv3/apis/chapter5_1_5.shtml

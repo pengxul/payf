@@ -4,11 +4,11 @@ declare(strict_types=1);
 
 namespace Pengxul\Pay;
 
-use Pengxul\Pay\Contract\ConfigInterface;
-use Pengxul\Pay\Contract\LoggerInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\InvalidConfigException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Contract\ConfigInterface;
+use Pengxul\Payf\Contract\LoggerInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\InvalidConfigException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
 
 /**
  * @method static void emergency($message, array $context = [])

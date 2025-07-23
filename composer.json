@@ -43,7 +43,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Pengxul\\Pay\\": "src"
+            "Pengxul\\Payf\\": "src"
         },
         "files": [
             "src/Functions.php"
@@ -51,7 +51,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Pengxul\\Pay\\Tests\\": "tests"
+            "Pengxul\\Payf\\Tests\\": "tests"
         }
     },
     "suggest": {

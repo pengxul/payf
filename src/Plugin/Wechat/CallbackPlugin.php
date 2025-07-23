@@ -2,24 +2,24 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat;
+namespace Pengxul\Payf\Plugin\Wechat;
 
 use Closure;
 use Psr\Http\Message\ServerRequestInterface;
-use Pengxul\Pay\Contract\PluginInterface;
-use Pengxul\Pay\Direction\NoHttpRequestDirection;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Exception\Exception;
-use Pengxul\Pay\Exception\InvalidConfigException;
-use Pengxul\Pay\Exception\InvalidParamsException;
-use Pengxul\Pay\Exception\InvalidResponseException;
-use Pengxul\Pay\Exception\ServiceNotFoundException;
-use Pengxul\Pay\Logger;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Contract\PluginInterface;
+use Pengxul\Payf\Direction\NoHttpRequestDirection;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidConfigException;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Exception\InvalidResponseException;
+use Pengxul\Payf\Exception\ServiceNotFoundException;
+use Pengxul\Payf\Logger;
+use Pengxul\Payf\Rocket;
 use Yansongda\Supports\Collection;
 
-use function Pengxul\Pay\decrypt_wechat_resource;
-use function Pengxul\Pay\verify_wechat_sign;
+use function Pengxul\Payf\decrypt_wechat_resource;
+use function Pengxul\Payf\verify_wechat_sign;
 
 class CallbackPlugin implements PluginInterface
 {

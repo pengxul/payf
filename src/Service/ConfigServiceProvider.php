@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Service;
+namespace Pengxul\Payf\Service;
 
-use Pengxul\Pay\Contract\ConfigInterface;
-use Pengxul\Pay\Contract\ServiceProviderInterface;
-use Pengxul\Pay\Exception\ContainerException;
-use Pengxul\Pay\Pay;
+use Pengxul\Payf\Contract\ConfigInterface;
+use Pengxul\Payf\Contract\ServiceProviderInterface;
+use Pengxul\Payf\Exception\ContainerException;
+use Pengxul\Payf\Pay;
 use Yansongda\Supports\Config;
 
 class ConfigServiceProvider implements ServiceProviderInterface

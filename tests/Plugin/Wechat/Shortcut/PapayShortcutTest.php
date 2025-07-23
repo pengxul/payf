@@ -2,19 +2,19 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Pay\Tests\Plugin\Wechat\Shortcut;
+namespace Pengxul\Payf\Tests\Plugin\Wechat\Shortcut;
 
-use Yansongda\Pay\Exception\Exception;
-use Yansongda\Pay\Exception\InvalidParamsException;
-use Yansongda\Pay\Plugin\ParserPlugin;
-use Yansongda\Pay\Plugin\Wechat\Papay\ApplyPlugin;
-use Yansongda\Pay\Plugin\Wechat\Papay\ContractOrderPlugin;
-use Yansongda\Pay\Plugin\Wechat\Papay\OnlyContractPlugin;
-use Yansongda\Pay\Plugin\Wechat\Pay\Common\InvokePrepayV2Plugin;
-use Yansongda\Pay\Plugin\Wechat\PreparePlugin;
-use Yansongda\Pay\Plugin\Wechat\RadarSignPlugin;
-use Yansongda\Pay\Plugin\Wechat\Shortcut\PapayShortcut;
-use Yansongda\Pay\Tests\TestCase;
+use Pengxul\Payf\Exception\Exception;
+use Pengxul\Payf\Exception\InvalidParamsException;
+use Pengxul\Payf\Plugin\ParserPlugin;
+use Pengxul\Payf\Plugin\Wechat\Papay\ApplyPlugin;
+use Pengxul\Payf\Plugin\Wechat\Papay\ContractOrderPlugin;
+use Pengxul\Payf\Plugin\Wechat\Papay\OnlyContractPlugin;
+use Pengxul\Payf\Plugin\Wechat\Pay\Common\InvokePrepayV2Plugin;
+use Pengxul\Payf\Plugin\Wechat\PreparePlugin;
+use Pengxul\Payf\Plugin\Wechat\RadarSignPlugin;
+use Pengxul\Payf\Plugin\Wechat\Shortcut\PapayShortcut;
+use Pengxul\Payf\Tests\TestCase;
 
 class PapayShortcutTest extends TestCase
 {
@@ -44,7 +44,7 @@ class PapayShortcutTest extends TestCase
             PreparePlugin::class,
             ContractOrderPlugin::class,
             RadarSignPlugin::class,
-            \Yansongda\Pay\Plugin\Wechat\Pay\Mini\InvokePrepayV2Plugin::class,
+            \Pengxul\Payf\Plugin\Wechat\Pay\Mini\InvokePrepayV2Plugin::class,
             ParserPlugin::class,
         ], $this->plugin->getPlugins(['_type' => 'mini']));
     }
@@ -55,7 +55,7 @@ class PapayShortcutTest extends TestCase
             PreparePlugin::class,
             ContractOrderPlugin::class,
             RadarSignPlugin::class,
-            \Yansongda\Pay\Plugin\Wechat\Pay\App\InvokePrepayV2Plugin::class,
+            \Pengxul\Payf\Plugin\Wechat\Pay\App\InvokePrepayV2Plugin::class,
             ParserPlugin::class,
         ], $this->plugin->getPlugins(['_type' => 'app']));
     }

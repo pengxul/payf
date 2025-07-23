@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Wechat\Papay;
+namespace Pengxul\Payf\Plugin\Wechat\Papay;
 
-use Pengxul\Pay\Plugin\Wechat\GeneralV2Plugin;
-use Pengxul\Pay\Rocket;
+use Pengxul\Payf\Plugin\Wechat\GeneralV2Plugin;
+use Pengxul\Payf\Rocket;
 
 /**
  * 支付中签约.

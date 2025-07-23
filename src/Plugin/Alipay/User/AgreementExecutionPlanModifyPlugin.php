@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay\Plugin\Alipay\User;
+namespace Pengxul\Payf\Plugin\Alipay\User;
 
-use Pengxul\Pay\Plugin\Alipay\GeneralPlugin;
+use Pengxul\Payf\Plugin\Alipay\GeneralPlugin;
 
 /**
  * @see https://opendocs.alipay.com/open/02fkaq?ref=api
