@@ -15,6 +15,7 @@
             "email": "me@yansongda.cn"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": ">=7.4",
         "ext-openssl": "*",
