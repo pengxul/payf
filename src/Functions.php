@@ -4,9 +4,6 @@ declare(strict_types=1);
 
 namespace Pengxul\Payf;
 
-use Psr\Http\Message\MessageInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\ServerRequestInterface;
 use Pengxul\Payf\Contract\ConfigInterface;
 use Pengxul\Payf\Direction\NoHttpRequestDirection;
 use Pengxul\Payf\Exception\ContainerException;
@@ -20,6 +17,9 @@ use Pengxul\Payf\Plugin\Wechat\PreparePlugin;
 use Pengxul\Payf\Plugin\Wechat\RadarSignPlugin;
 use Pengxul\Payf\Plugin\Wechat\WechatPublicCertsPlugin;
 use Pengxul\Payf\Provider\Wechat;
+use Psr\Http\Message\MessageInterface;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
 use Yansongda\Supports\Str;
 
 if (!function_exists('should_do_http_request')) {
@@ -64,9 +64,9 @@ if (!function_exists('get_private_cert')) {
             return file_get_contents($key);
         }
 
-        return "-----BEGIN RSA PRIVATE KEY-----\n".
-            wordwrap($key, 64, "\n", true).
-            "\n-----END RSA PRIVATE KEY-----";
+        return "-----BEGIN RSA PRIVATE KEY-----\n"
+            .wordwrap($key, 64, "\n", true)
+            ."\n-----END RSA PRIVATE KEY-----";
     }
 }
 

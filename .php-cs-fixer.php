@@ -1,11 +1,17 @@
 <?php
 
-$finder = PhpCsFixer\Finder::create()
+declare(strict_types=1);
+
+use PhpCsFixer\Config;
+use PhpCsFixer\Finder;
+
+$finder = Finder::create()
     ->exclude('tests')
     ->exclude('vendor')
-    ->in(__DIR__);
+    ->in(__DIR__)
+;
 
-return (new PhpCsFixer\Config())
+return (new Config())
     ->setUsingCache(false)
     ->setRiskyAllowed(true)
     ->setRules([
@@ -19,4 +25,5 @@ return (new PhpCsFixer\Config())
             'import_functions' => true,
         ],
     ])
-    ->setFinder($finder);
+    ->setFinder($finder)
+;

@@ -6,9 +6,6 @@ namespace Pengxul\Payf\Provider;
 
 use GuzzleHttp\Psr7\Response;
 use GuzzleHttp\Psr7\ServerRequest;
-use Psr\Http\Message\MessageInterface;
-use Psr\Http\Message\ResponseInterface;
-use Psr\Http\Message\ServerRequestInterface;
 use Pengxul\Payf\Event;
 use Pengxul\Payf\Exception\ContainerException;
 use Pengxul\Payf\Exception\InvalidParamsException;
@@ -19,6 +16,9 @@ use Pengxul\Payf\Plugin\Alipay\LaunchPlugin;
 use Pengxul\Payf\Plugin\Alipay\PreparePlugin;
 use Pengxul\Payf\Plugin\Alipay\RadarSignPlugin;
 use Pengxul\Payf\Plugin\ParserPlugin;
+use Psr\Http\Message\MessageInterface;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Message\ServerRequestInterface;
 use Yansongda\Supports\Collection;
 use Yansongda\Supports\Str;
 
@@ -48,8 +48,8 @@ class Alipay extends AbstractProvider
      */
     public function __call(string $shortcut, array $params)
     {
-        $plugin = '\\Yansongda\\Pay\\Plugin\\Alipay\\Shortcut\\'.
-            Str::studly($shortcut).'Shortcut';
+        $plugin = '\Yansongda\Pay\Plugin\Alipay\Shortcut\\'
+            .Str::studly($shortcut).'Shortcut';
 
         return $this->call($plugin, ...$params);
     }
@@ -165,8 +165,8 @@ class Alipay extends AbstractProvider
         }
 
         if ($contents instanceof ServerRequestInterface) {
-            return Collection::wrap('GET' === $contents->getMethod() ? $contents->getQueryParams() :
-                $contents->getParsedBody());
+            return Collection::wrap('GET' === $contents->getMethod() ? $contents->getQueryParams()
+                : $contents->getParsedBody());
         }
 
         $request = ServerRequest::fromGlobals();
