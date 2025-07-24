@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay;
+namespace Pengxul\Payf;
 
 use Pengxul\Payf\Contract\ConfigInterface;
 use Pengxul\Payf\Contract\LoggerInterface;

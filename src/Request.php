@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Pengxul\Pay;
+namespace Pengxul\Payf;
 
 use JsonSerializable as JsonSerializableInterface;
 use Yansongda\Supports\Traits\Accessable;
